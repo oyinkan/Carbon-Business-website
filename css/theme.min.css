@@ -1696,6 +1696,7 @@ pre code {
     .table-responsive-md>.table-bordered {
         border: 0
     }
+
 }
 
 @media (max-width: 991.98px) {
@@ -1709,6 +1710,10 @@ pre code {
 
     .table-responsive-lg>.table-bordered {
         border: 0
+    }
+
+    .createabusiness {
+        margin: auto;
     }
 }
 
