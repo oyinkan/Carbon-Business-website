@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
+
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.sso-error {
+    height: 100vh;
+}
+
+.sso-error--content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(/images/carbon.svg) left bottom no-repeat, url(/images/carbon.svg) right top no-repeat;
+    background-size: 50vw, 50vw;
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: overlay;
+    background-position-y: 14vw, -15vw;
+    animation-duration: 20s;
+    animation-name: upDown;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+}
+
+
+
+
+
+.sso-error--content-img img{
+    height: 200px;
+}
+
+.sso-error--content-header h1 {
+    font-weight: 500;
+    font-size: 8rem;
+    margin: 0;
+    color: #4300C2;
+}   
+
+.sso-error--content-sub-header h4{
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    color: #3F3F3F;
+}
+
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 30px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .sso-error--content {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .sso-error--content-sub-header {
+        padding: 10px 20px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .sso-error--content-img img{
+        height: 100px;
+    }
+    
+    .sso-error--content-header h1 {
+        font-weight: 400;
+        font-size: 6rem;
+    }   
+    
+    .sso-error--content-sub-header h4{
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .sso-error--content {
+        animation: none;
+        background-size: 80vw, 80vw;
+        background-position-y: 75vh, -55vw;
+    }
+}
+
+
+@keyframes upDown {
+    0%  {
+        background-position-y: 14vw, -15vw;
+    }
+
+    10%  {
+        background-position-y: 8vw, -10vw;
+    }
+
+    20%  {
+        background-position-y: 2vw, -4vw;
+    }
+
+    30%  {
+        background-position-y: -4vw, 2vw;
+    }
+
+    40%  {
+        background-position-y: -10vw, 8vw;
+    }
+
+    50%  {
+        background-position-y: -15vw, 14vw;
+    }
+
+    60%  {
+        background-position-y: -10vw, 8vw;
+    }
+
+    70%  {
+        background-position-y: -4vw, 2vw;
+    }
+    80%  {
+        background-position-y: 2vw, -4vw;
+    }
+    90%  {
+        background-position-y: 8vw, -10vw;
+    }
+    100%  {
+        background-position-y: 14vw, -15vw;
+    }
+  }

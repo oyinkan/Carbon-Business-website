@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1.2)">
+        <circle cx="19.8" cy="19.8" r="19.8" stroke="#FFF" stroke-width=".9"/>
+        <text fill="#FFF" font-family="Helvetica" font-size="21.6">
+            <tspan x="14.244" y="28.2">3</tspan>
+        </text>
+    </g>
+</svg>

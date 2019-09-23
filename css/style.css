@@ -1,0 +1,551 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+* {
+    outline: none!important;
+}
+.form-control:focus {
+  box-shadow: none!important;
+}
+nav {
+     background-color: #071a2d;
+}
+.navbar {
+    padding: 1rem;
+}
+.container-fluid {
+    width: 94%;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 16px;
+  color: #fff;
+  padding-right: 30px;
+}
+.btn.btn-create {
+  border-radius: 6px;
+  background-color: #fff;
+  border-color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+}   
+.accept-wrapper {
+  background-color: #320fa8;
+  padding: 60px 0;
+  color: #ffffff;
+}
+.accept-wrapper .d-flex {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.accept-wrapper h1 {
+  font-size: 65px;
+  margin-bottom: 30px;
+  font-weight: 800;
+  line-height: 1.11;
+}
+.accept-wrapper p {
+  width: 72%;
+  opacity: 0.8;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.btn.btn-info.btn-apply {
+  border-radius: 8px;
+  background-color: #fff;
+  border-color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #320fa8;
+  margin-top: 10px;
+  padding: 10px 15px;
+  padding-top: 4px;
+  padding-top: 10px;
+}
+.btn.btn-info.btn-apply img {
+  margin-top: -3px;
+}
+.btn.btn-info.btn-apply:hover {
+  background: #320fa8; 
+  color: #fff;
+}
+/*.relative {
+  background: url(./../images/bill.png);
+  background-size: cover;
+  padding: 293px 0;
+  margin-bottom: -60px;
+}*/
+.accept-wrapper .img-wrapper img {
+  margin-bottom: -60px;
+}
+.payment-wrapper {
+  padding-top: 80px;
+}
+.payment-wrapper h6,
+.access-wrapper h6,
+.carousel-item h6 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: -0.55px;
+}
+.payment-wrapper h6 {
+  color: #18214d;
+}
+.payment-wrapper h2,
+.seamless-wrapper h2,
+.platform-wrapper h2,
+.onlinepayemt-wrapper h2,
+.access-wrapper h2 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1.11;
+  letter-spacing: -2.4px;
+  color: #18214d;
+}
+.payment-wrapper p,
+.seamless-wrapper p,
+footer p,
+footer input,
+.recharge-wrapper p,
+.onlinepayment-wrapper p,
+.access-wrapper p,
+.documentation-wrapper p {
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: -0.3px;
+  color: #3e4462;
+}
+.payment-wrapper p {
+  width: 70%;
+}
+.mt-85 {
+  margin-top: 85px;
+}
+.payment-wrapper .d-flex {
+  margin-top: 30px;
+}
+.seamless-wrapper {
+  padding: 60px 0;
+}
+.btn.btn-info.btn-explore {
+  border-radius: 8px;
+  background-color: #345dee;
+  border-color: #345dee;
+  /*font-family: Inter;*/
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #fff;
+  margin-top: 30px;
+}
+.seamless-wrapper hr {
+  margin-top: 50px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.services-wrapper.payment-wrapper {
+  padding-top: 30px;
+}
+.services-wrapper.payment-wrapper p {
+  width: auto;
+}
+.report-wrapper {
+  padding-top: 50px; 
+  background-image: linear-gradient(268deg, #320fa8, #510fa8);
+  margin-bottom: -30px;
+}
+.report-div,
+.access-wrapper h2 {
+  margin: auto;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.report-div {
+  width: 70%;
+}
+.report-div h4 {
+  font-size: 38.9px;
+  font-weight: 800;
+}
+.report-div p,
+.report-div .input-group {
+  width: 85%;
+}
+.report-div p {
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 25px 0;
+}
+.report-div input {
+  font-size: 13px;
+  color: #fff;
+  background: transparent;
+}
+.report-div .btn.btn-info.btn-subscribenow {
+  /*font-family: Graphik-Medium;*/
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 0.87;
+  color: #320fa8;
+  border-radius: 3.8px;
+  background-color: #fff;
+  border-color: #fff;
+  margin-left: -5px;
+}
+.report-div .btn.btn-info.btn-subscribenow i {
+  /*font-family: LucidaGrande;*/
+  font-weight: bold;
+}
+
+footer,
+.access-wrapper {
+  background-color: #05172a;
+  padding: 50px 0;
+  color: #fff;
+}
+footer p.about {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.38;
+  letter-spacing: -0.4px;
+  color: #fff;
+  margin-top: 8px;
+}
+footer p a {
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: -0.2px;
+  color: rgba(255, 255, 255, 0.66);
+}
+footer hr {
+  border: 1px solid #dfe4ea;
+  margin-top: 70px;
+}
+.btn.btn-info.btn-subscribe {
+  border-radius: 8px;
+  background-color: #4737ff;
+  border-color: #4737ff;
+  /*font-family: Inter;*/
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  color: #fff;
+  margin-left: 5px;
+}
+footer .p-2 {
+  padding-top: 0!important;
+}
+
+
+/* payment page */
+.recharge-wrapper {
+  border-radius: 20px;
+  box-shadow: 0 10px 50px 0 rgba(5, 23, 42, 0.05);
+  background-color: #fff;
+  padding: 60px;
+  margin-top: -50px;
+}
+.recharge-wrapper h3,
+.documentation-wrapper h3 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.13;
+  letter-spacing: -2.06px;
+  color: #05172a;
+  margin-bottom: 20px;
+}
+.recharge-wrapper p {
+  width: 80%;
+  margin-bottom: 20px;
+}
+.recharge-wrapper hr {
+  margin-top: 40px;
+}
+.recharge-wrapper.bill-wrapper {
+  margin-top: 60px;
+}
+.settlement-wrapper p span.transaction {
+  font-weight: bold; 
+  color: #0db884;
+}
+
+/* landing page */
+.sponsors-wrapper {
+  padding: 20px 0;
+  width: 80%;
+  margin: auto;
+}
+.platform-wrapper {
+  border-top: 1px solid #f3efff;
+  background-color: rgba(243, 239, 255, 0.31);
+  padding: 60px 0 100px 0;
+  perspective: 1000px;
+}
+.platform-wrapper h2 {
+  width: 70%;
+  margin: auto;
+}
+.onlinepayment-wrapper,
+.verification-wrapper,
+.business-wrapper {
+  border-radius: 15px;
+  box-shadow: 0 20px 80px 0 rgba(234, 233, 237, 0.71);
+  padding: 50px 20px 0 20px;
+  margin-top: 90px;
+}
+/*.onlinepayment-wrapper:hover,
+.verification-wrapper:hover,
+.business-wrapper:hover {
+  transform: rotateY(-2deg);
+}*/
+.onlinepayment-wrapper {
+  background-color: #fff;
+}
+.onlinepayment-wrapper p,
+.verification-wrapper p {
+  width: 70%;
+  margin-bottom: 30px;
+}
+.onlinepayment-wrapper a,
+.verification-wrapper a {
+  font-size: 18px;
+  letter-spacing: -0.45px;
+  color: #320fa8;
+  display: inline-block;
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+.platform-wrapper .onlinepayment-wrapper h2,
+.platform-wrapper .verification-wrapper h2 {
+  width: auto;
+  margin-bottom: 15px;
+}
+.platform-wrapper hr {
+  border: 1px solid #f3efff;
+}
+.verification-wrapper {
+  background-color: #320fa8;
+  color: #fff!important;
+}
+.platform-wrapper .verification-wrapper h2,
+.verification-wrapper a {
+  color: #fff;
+}
+.verification-image {
+  background: url(./../images/verification.png);
+  background-size: cover;
+  padding: 130px;
+  margin-top: 20px;
+}
+.onlinepayment-image {
+  background: url(./../images/online-payment.svg);
+  background-size: cover;
+  padding: 130px;
+  margin-top: -30px;
+}
+.business-image {
+  background: url(./../images/business.png);
+  background-size: cover;
+  padding: 130px;
+  margin-top: 20px;
+}
+.fund-image {
+  background: url(./../images/fund.svg);
+  background-size: cover;
+  padding: 130px;
+  margin-top: 20px;
+}
+
+.business-wrapper {
+  background-color: #510fa8;
+  margin-top: 50px;
+}
+.fund-wrapper.onlinepayment-wrapper {
+  margin-top: 50px;
+}
+.access-wrapper {
+  padding-bottom: 200px;
+}
+.access-wrapper h2 {
+  width: 60%;
+}
+.access-wrapper img {
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+.access-wrapper p {
+  width: 90%;
+  margin: auto;
+  color: #73788e;
+}
+.documentation-wrapper {
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #fbfbfd, #ffffff);
+  padding: 50px 70px;
+  position: relative;
+  top: -90px;
+}
+.documentation-wrapper .btn.btn-info.btn-subscribe {
+  margin-top: 25px;
+  padding: 10px 30px;
+}
+.nav-tabs {
+  border-radius: 6px;
+  box-shadow: 0 5px 10px 0 rgba(178, 181, 194, 0.1);
+  border: solid 1px #f9fafd;
+  background-color: #ffffff;
+}
+.nav-tabs .nav-link {
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.14px;
+  color: #05172a;
+  text-align: center;
+}
+.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
+  border: none;
+  color: #320fa8;
+}
+.nav-tabs .nav-link.active {
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+.tab-content {
+  border-radius: 2.2px;
+  box-shadow: 0 10px 20px 0 rgba(223, 227, 233, 0.38);
+  background-color: #fff;
+}
+.tab-content code {
+  font-size: 15.4px;
+  line-height: 1.36;
+  letter-spacing: 0.14px;
+  color: #444972;
+}
+
+.tab-content code .constant {
+  letter-spacing: 0.13px;
+  color: #6772e5;
+}
+.tab-content code .require {
+  color: #3197d3;
+}
+.tab-content code .stripe {
+  color: #1d9773;
+}
+.tab-content code .comment {
+  color: #91a2b0;
+}
+.tab-content code .amount {
+  color: #fa775b;
+}
+.testimonial-wrapper {
+  background-color: #f7f5fd;
+  padding: 50px 0;
+}
+.carousel-item div div div {
+  margin-left: 30px;
+}
+.carousel-item span {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: -0.4px;
+  color: #3e4462;
+}
+.carousel-item h6 {
+  margin-bottom: -5px!important;
+}
+.carousel-item p {
+  width: 72%;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.22;
+  letter-spacing: -1.5px;
+  color: #05172a;
+  margin-top: 130px;
+}
+.carousel-control-next, .carousel-control-prev {
+  position: relative;
+  display: inline-block;
+  margin-top: -30px;
+  top: -60px;
+  color: #18214d;
+  width: 32.9px;
+  height: 33px;
+  background-color: #eff2f6;
+  border-radius: 50%;
+  padding-top: 4px;
+}
+.carousel-control-prev {
+  margin-left: 40px;
+}
+
+/* business loan page */
+.quality-wrapper h6 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+.quality-wrapper p {
+  opacity: 0.63;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #fff;
+}
+.recharge-wrapper .quality-wrapper p {
+  width: 60%;
+}
+.ml-25 {
+  margin-left: 25px;
+}
+.slider .slide h6 {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: -0.9px;
+  color: #18214d;
+}
+.slider .slide hr {
+  width: 80%;
+  margin-left: 0;
+}
+.slider .slide p {
+  width: 63%;
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: -0.3px;
+  color: #3e4462;
+}
+.slick-prev, .slick-next {
+  top: 95%!important;
+}
+.quality-wrapper hr{ 
+  width: 0;
+  height: 79.2px;
+  opacity: 0.38;
+  margin-top: 15px;
+  border: solid 0.9px #ffffff;     
+}
+.recharge-wrapper .mt-20 {
+  margin: 20px 0 40px 0;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.platform-wrapper .onlinepayment-wrapper h2, 
+.platform-wrapper .verification-wrapper h2 {
+  letter-spacing: 1px;
+}
+#tab_selector.form-control {
+  width: 100%;
+}

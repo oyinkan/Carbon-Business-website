@@ -1,0 +1,147 @@
+@media screen and (max-width: 768px) {
+	.accept-wrapper h1 {
+	    font-size: 37px;
+	}
+	.accept-wrapper p,
+	.btn.btn-info.btn-subscribe {
+	    font-size: 16px;
+	}
+	.btn.btn-info.btn-apply,
+	.btn.btn-info.btn-explore {
+	    font-size: 16px;
+	    margin-bottom: 30px;
+	}
+	.payment-wrapper h6, 
+	.access-wrapper h6,
+	.quality-wrapper h6 {
+    	font-size: 18px;
+    }
+    .payment-wrapper h2, 
+    .seamless-wrapper h2,
+    .platform-wrapper h2,
+    .access-wrapper h2 {
+    	padding: 20px 0;
+    	font-size: 30px;
+    }
+    .payment-wrapper p, 
+    .seamless-wrapper p, 
+    footer p, 
+    footer input, 
+    .recharge-wrapper p, 
+    .onlinepayment-wrapper p, 
+    .access-wrapper p, 
+    .documentation-wrapper p
+    .settlement-wrapper,
+    .onlinepayment-wrapper a, 
+    .verification-wrapper a {
+    	font-size: 15px;
+    }
+    footer p.about,
+    footer .d-flex {
+    	margin-top: 30px;
+    }
+    .form-control,
+    .recharge-wrapper p,
+    .report-div .input-group,
+    .recharge-wrapper .quality-wrapper p {
+	    width: auto;
+	}
+	footer p a,
+	footer p.about {
+		font-size: 14px;
+	}
+	.recharge-wrapper h3 {
+		font-size: 30px;
+		margin-top: 20px;
+	}
+	.platform-wrapper h2,
+	.access-wrapper h2 {
+		width: 90%;
+	}
+	.documentation-wrapper {
+		padding: 35px 0;
+	}
+	.carousel-item p {
+		font-size: 20px;
+		margin-top: 70px;
+	}
+	.slider .slide p {
+		width: 80%;
+    	font-size: 15px;
+    }
+    .slide h6 {
+		font-size: 25px;
+	    margin-top: 20px;
+	}
+	.sponsors-wrapper img {
+    	padding: 10px 0;
+    }
+    .hidden-xs {
+    	display: none;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 990px) {
+	.accept-wrapper h1 {
+	    font-size: 55px;
+	}
+	.payment-wrapper h2, 
+	.seamless-wrapper h2 {
+    	font-size: 50px;
+    }
+    .recharge-wrapper h3 {
+	    font-size: 35px;
+	}
+    .payment-wrapper h6 {
+	    font-size: 20px;
+	}
+	footer p a,
+	footer p.about {
+		font-size: 15px;
+	}
+	.btn.btn-info.btn-apply,
+	.btn.btn-info.btn-explore {
+		font-size: 18px;
+	}
+	.payment-wrapper p, 
+    .seamless-wrapper p, 
+    footer p, 
+    footer input {
+    	font-size: 16.5px;
+    }
+    footer p.about {
+    	margin-top: 30px;
+    }
+    .carousel-control-next, 
+    .carousel-control-prev {
+    	top: 0;
+    }
+    .carousel-control-prev {
+    	margin-left: 30px;
+    }
+    .carousel p {
+    	font-size: 28px;
+    }
+
+}
+
+@media screen and (min-width: 1150px) {
+	.quality-wrapper hr {
+		margin-left: 20px;
+	} 
+}
+@media screen and (min-width: 430px) and (max-width: 768px) {
+	.quality-wrapper hr {
+		margin-left: 20px;
+	} 
+}
+@media screen and (max-width: 450px) {
+	.navbar-brand img {
+		height: 20px;
+	}
+}
+@media screen and (min-width: 769px) {
+	.visible-xs {
+		display: none;
+	}
+}
