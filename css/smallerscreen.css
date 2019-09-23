@@ -122,7 +122,10 @@
     .carousel p {
     	font-size: 28px;
     }
-
+    .report-div img {
+    	position: relative;
+    	top: 28px;
+    }
 }
 
 @media screen and (min-width: 1150px) {
@@ -143,5 +146,10 @@
 @media screen and (min-width: 769px) {
 	.visible-xs {
 		display: none;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+	.report-div {
+    	width: auto;
 	}
 }

@@ -164,6 +164,8 @@ footer input,
 .access-wrapper h2 {
   margin: auto;
   color: #fff;
+}
+.access-wrapper h2 {
   padding-bottom: 30px;
 }
 .report-div {
