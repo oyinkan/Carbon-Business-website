@@ -17239,7 +17239,8 @@ footer .row.align-items-center.justify-content-md-between.delimiter-top {
     }
 }
 @media screen and (min-width: 591px) and (max-width: 990px) {
-    .navbar-dark .navbar-brand img {
+    .navbar-dark .navbar-brand img,
+    .navbar-collapse.collapsing, .navbar-collapse.show {
         margin-left: 10px;
     }
 }
