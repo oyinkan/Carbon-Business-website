@@ -79,6 +79,15 @@
     .hidden-xs {
     	display: none;
     }
+    .slick-prev, .slick-next {
+	    top: 101%!important;
+	}
+	.slick-prev {
+	    left: auto!important;
+	}
+	.slick-next {
+	    left: 30px!important;
+	}
 }
 
 @media screen and (min-width: 770px) and (max-width: 990px) {
