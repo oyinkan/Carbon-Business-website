@@ -518,6 +518,9 @@ footer .p-2 {
 .ml-25 {
   margin-left: 25px;
 }
+[type=reset], [type=submit], button, html [type=button] {
+  z-index: 1;
+}
 .slider .slide h6 {
   font-size: 36px;
   font-weight: bold;
@@ -527,6 +530,8 @@ footer .p-2 {
 .slider .slide hr {
   width: 80%;
   margin-left: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .slider .slide p {
   width: 63%;
@@ -549,11 +554,11 @@ footer .p-2 {
   margin-top: 15px;
 }
 .slick-prev {
-  left: 43%!important;
+  left: 34%!important;
   position: absolute;
 }
 .slick-next {
-  left: 46%;
+  left: 37%;
 }
 .quality-wrapper hr{ 
   width: 0;

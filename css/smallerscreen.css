@@ -180,3 +180,16 @@
     	width: auto;
 	}
 }
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+	.slider .slide p {
+    	width: 80%;	
+	}
+}
+@media screen and (min-width: 1200px) {
+	.slider .slide p {
+    	width: 55%;
+    }
+    .slider .slide hr {
+    	width: 65%;
+    }
+}
