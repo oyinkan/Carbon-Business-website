@@ -91,6 +91,9 @@
 	.slick-next {
 	    left: 30px!important;
 	}
+	.recharge-wrapper {
+        margin-top: -75px;
+    }
 }
 
 @media screen and (min-width: 770px) and (max-width: 990px) {
