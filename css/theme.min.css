@@ -17221,3 +17221,25 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 .swiper-button.swiper-button-next {
     margin-left: 10px
 }
+
+
+/* changes made for the footer */
+footer .btn-block {
+    width: auto;
+}
+footer .row.align-items-center {
+    margin-left: 0;
+}
+footer .row.align-items-center.justify-content-md-between.delimiter-top {
+    margin-left: -15px;
+}
+@media screen and (max-width: 400px) {
+    .navbar-dark .navbar-brand img {
+        height: 20px!important;
+    }
+}
+@media screen and (min-width: 591px) and (max-width: 990px) {
+    .navbar-dark .navbar-brand img {
+        margin-left: 10px;
+    }
+}
