@@ -531,7 +531,15 @@ footer .p-2 {
   color: #3e4462;
 }
 .slick-prev, .slick-next {
+  position: relative;
   top: 95%!important;
+}
+.slick-prev {
+  left: 43%!important;
+  position: absolute;
+}
+.slick-next {
+  left: 46%;
 }
 .quality-wrapper hr{ 
   width: 0;

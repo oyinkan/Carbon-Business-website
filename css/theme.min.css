@@ -17249,3 +17249,8 @@ footer .row.align-items-center.justify-content-md-between.delimiter-top {
         width: 100%;
     }
 }
+@media screen and (min-width: 1200px) {
+    .navbar-dark .navbar-brand img {
+        margin-left: -10px;
+    }
+}

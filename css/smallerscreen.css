@@ -130,6 +130,16 @@
     	width: 98%;
     	font-size: 16px;
     }
+    [type=reset], [type=submit], button, html [type=button] {
+	    -webkit-appearance: button;
+	    z-index: 1;
+	}
+	.slick-prev {
+	    left: 52%!important;
+	}
+	.slick-next {
+	    left: 56%!important;
+	}
 }
 
 @media screen and (min-width: 1150px) {
