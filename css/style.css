@@ -33,7 +33,7 @@ nav {
 }   
 .accept-wrapper {
   background-color: #320fa8;
-  padding: 60px 0;
+  padding: 60px 0 20px 0;
   color: #ffffff;
 }
 .accept-wrapper .d-flex {
@@ -452,8 +452,15 @@ footer .p-2 {
   color: #fa775b;
 }
 .testimonial-wrapper {
-  background-color: #f7f5fd;
   padding: 50px 0;
+}
+.testimonial-wrapper h3 {
+  font-size: 48px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  letter-spacing: -0.8px;
+  text-align: center;
+  color: #3e4462;
 }
 .carousel-item div div div {
   margin-left: 30px;
@@ -533,6 +540,13 @@ footer .p-2 {
 .slick-prev, .slick-next {
   position: relative;
   top: 95%!important;
+}
+.slick-prev:before, 
+.slick-next:before {
+  color: #eff2f6!important;
+}
+.slick-slide img {
+  margin-top: 15px;
 }
 .slick-prev {
   left: 43%!important;

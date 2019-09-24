@@ -54,6 +54,9 @@
 		font-size: 30px;
 		margin-top: 20px;
 	}
+	.testimonial-wrapper h3 {
+		font-size: 30px;
+	}
 	.platform-wrapper h2,
 	.access-wrapper h2 {
 		width: 90%;
@@ -98,7 +101,8 @@
 	.seamless-wrapper h2 {
     	font-size: 50px;
     }
-    .recharge-wrapper h3 {
+    .recharge-wrapper h3,
+    .testimonial-wrapper h3 {
 	    font-size: 35px;
 	}
     .payment-wrapper h6 {
