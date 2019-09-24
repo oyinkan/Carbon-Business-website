@@ -17243,3 +17243,8 @@ footer .row.align-items-center.justify-content-md-between.delimiter-top {
         margin-left: 10px;
     }
 }
+@media screen and (max-width: 768px) {
+    footer .btn-block {
+        width: 100%;
+    }
+}
